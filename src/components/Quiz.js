@@ -11,7 +11,7 @@ const Quiz = () => {
   const [answeredQuestions, setAnsweredQuestions] = useState(0);
   const [showResult, setShowResult] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [timeLeft, setTimeLeft] = useState(10); // Timer in seconds
+  const [timeLeft, setTimeLeft] = useState(60); // Timer in seconds
 
   // Fetch questions from API
   useEffect(() => {
